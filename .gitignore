@@ -1,0 +1,23 @@
+# Caches, logs and intermediate figures
+output/
+*.npy
+*.npz
+__pycache__/
+.DS_Store
+
+# Inputs: only my own (downsampled) captures are committed.
+# The lamp and museum pairs come with the homework ZIP; full-resolution
+# camera files and scratch images stay local.
+data/*
+!data/own/
+
+# Assignment handout
+assgn3.pdf
+
+# LaTeX build files
+report/*.aux
+report/*.fdb_latexmk
+report/*.fls
+report/*.log
+report/*.out
+report/*.synctex.gz
