@@ -5,7 +5,7 @@
 flash/no-flash pairs, and two bonus problems (reflection removal and
 gradient-domain non-photorealistic rendering).
 
-The report is [`report/report.pdf`](report/report.pdf) (LaTeX source in `report/report.tex`).
+The report is [`report.pdf`](report.pdf) (LaTeX source and figures in `report/`; after rebuilding with `latexmk -pdf report.tex` inside `report/`, copy `report/report.pdf` to the repository root).
 
 ## Setup
 

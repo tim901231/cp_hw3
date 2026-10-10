@@ -21,3 +21,6 @@ report/*.fls
 report/*.log
 report/*.out
 report/*.synctex.gz
+
+# The compiled report is kept at the repository root (report.pdf)
+report/report.pdf
